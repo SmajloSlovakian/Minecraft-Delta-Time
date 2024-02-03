@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "deltatime",
+	"version": "${version}",
+	"name": "Deltatime",
+	"description": "This mod exposes some vanilla features to datapacks",
+	"authors": [
+		"SlovakSmileSK"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "gpl",
+	"icon": "assets/deltatime/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"smsk.deltatime.DT"
+		]
+	},
+	"mixins": [
+		"deltatime.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": ">=1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
