@@ -1,7 +1,7 @@
 # Minecraft Deltatime
 Minecraft mod making datapacks able to take control of some vanilla features
 
-Download: https://modrinth.com/user/SmajloSlovakian
+Download: https://modrinth.com/mod/deltatime
 
 # Features
 this mod adds commands to the game, which uncover some features to datapacks
